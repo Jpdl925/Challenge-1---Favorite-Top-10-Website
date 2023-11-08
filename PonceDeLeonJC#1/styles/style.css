@@ -1,16 +1,3 @@
-.navbar {
-    background-color: grey;
-}
-
-.navFont{
-    font-size: 24px;
-    font-weight: bold;   
-}
-
-.gap {
-    height: 20px; /* Adjust the height as needed */
-    background-color: transparent; /* To make it blank */
-}
 
 /* Style the images */
 .rounded-circle {
@@ -19,11 +6,6 @@
     margin-top: 50px;
 }
 
-/* Add a margin to separate the images and text */
-.text-content{
-    margin-left: 0%; 
-    text-align: center; /* Center the text horizontally */
-}
 
 
 
