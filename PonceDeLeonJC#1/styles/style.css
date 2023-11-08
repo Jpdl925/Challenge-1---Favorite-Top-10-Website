@@ -6,8 +6,34 @@
     margin-top: 50px;
 }
 
+footer {
+    background-color: black;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    position: relative; /* Change position to relative */
+    clear: both; /* Add clear property */
+    margin-top : 50px;
+}
+/* Style the card */
+.card {
+    border: none;
+}
 
 
+/* Center the card title */
+.card-title {
+    text-align: center;
+}
+
+/* Center the card text */
+.card-text {
+    text-align: center;
+}
+
+.first-song-title {
+    margin-top: 20px; 
+  }
 
 
 
