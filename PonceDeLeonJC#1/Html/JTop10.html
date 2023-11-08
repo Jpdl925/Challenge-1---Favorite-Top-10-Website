@@ -1,36 +1,86 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link href="styles.css" rel="stylesheet">
-    <title>Julius' Top 10</title>
-  </head>
-  <body>
-    <div class="container">
-        <h1 class="maintitle">TOP 10 POP SONGS</h1>
-        <ol>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- TAB TITLE -->
+        <title>Julius' Top 10</title>
+        <!-- TAB TITLE -->
 
+        <!-- Bootstrap CSS link -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <!-- FontAwesome CSS link -->
+        <script src="https://kit.fontawesome.com/611a0bce33.js" crossorigin="anonymous"></script>
+        <!-- External CSS file -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+          <!-- Icon 1 -->
+          <a class="navbar-brand" href="#">
+              <i class="fa-solid fa-microphone"> Country Songs</i>
+          </a>
+          <!-- Centered Text -->
+          <div class="d-flex justify-content-center bold">
+              <a class="navbar-brand" href="#"> <span style="font-size: 36px; font-weight: bold;color: rgb(252, 250, 250)">TOP MUSIC</span>
+              </a>
+          </div>
+          <!-- Icon 2 -->
+          <a class="navbar-brand" href="index.html">
+            <i class="fa-solid fa-house"></i>
+          </a>
+      </div>
+  </nav>
+  <!-- End of NAVBAR -->
+
+
+
+
+
+    <div class="container">
+      <!-- MAIN TITLE -->
+      <h1 class="maintitle text-center">TOP 10 POP SONGS</h1>
+      <!-- MAIN TITLE -->
+
+      <!-- BEGINNING OF LIST -->
+        <ol>
+          <!-- 1. -->
             <h2><li></li>   
             </h2>
+
+
             <!-- Button trigger modal -->
-<button type="button" class="container pic" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  <img class="container pic" src="media/harry.png">
+            <!--  TRANSPARENT BUTTON CONTAINING PIC  -->
+<button type="button pic" class="container pic btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  <img class="container pic" src="/Images/Harry.jpg">
 </button>
+
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
+  <div class="modal-dialog modal-ku modal-xl">
     <div class="modal-content">
       <div class="modal-header">
         <h1 class="modal-title fs-5" id="exampleModalLabel">More Info</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        ...
+        <div class="row">
+        <div class="col">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/H5v3kku4y6Q?si=Ak76zkCoCRRFxEAf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <p class="text-center">Review Video by: Blank</p>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      <div class="col">
+      <p>Artist: </p>
+      <p>Album: </p>
+      <p>Release Date: </p>
+      <p>Lyics: </p>
+      </div>
+      </div>
       </div>
     </div>
   </div>
