@@ -8,8 +8,10 @@ Created a website curated of Julius and Duc's top 10 favorite songs of our chose
 
 Figma: 
 https://www.figma.com/file/28ctk50MmhSTk8WCRqqOAJ/Julius'-and-Duc's-Music-Lists?type=design&node-id=0-1&mode=design&t=VpbLDda3J8B7JXTa-0
+
+
 Git:
-https://github.com/Jpdl925/Challenge-1---Favorite-Top-10-Website
+[https://github.com/Jpdl925/Challenge-1---Favorite-Top-10-Website](https://github.com/Jpdl925/Challenge-1---Favorite-Top-10-Website/tree/main/PonceDeLeonJC%231)
 
 
 
