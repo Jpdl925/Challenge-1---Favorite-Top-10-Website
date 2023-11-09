@@ -38,3 +38,52 @@ footer {
 
 
 
+.navbar {
+    background-color: grey;
+}
+
+.navFont{
+    font-size: 24px;
+    font-weight: bold;   
+}
+
+.gap {
+    height: 20px; /* Adjust the height as needed */
+    background-color: transparent; /* To make it blank */
+}
+
+/* Style the images */
+.rounded-circle {
+    width: 100%; /* Set width to 100% to maintain aspect ratio */
+    border-radius: 70%; /* Create a round shape */
+    margin-top: 50px;
+}
+
+/* Add a margin to separate the images and text */
+.text-content{
+    margin-left: 0%; 
+    text-align: center; /* Center the text horizontally */
+}
+
+.pic{
+    background-color: transparent;
+    width: 720px;
+    height: auto;
+}
+
+/* makes the button transparents for all images */
+.btn { 
+    cursor: pointer; 
+    border: 1px solid #3498db; 
+    background-color: transparent; 
+    height: 50px; 
+    width: 200px; 
+    color: #3498db; 
+    font-size: 1.5em; 
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6); 
+} 
+/* centers modal */
+.modal-ku {
+    width: 750px;
+    margin: auto;
+  }
